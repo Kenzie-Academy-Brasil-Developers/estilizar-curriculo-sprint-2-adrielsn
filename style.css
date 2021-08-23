@@ -1,5 +1,28 @@
+#top {
+	margin: 100px;
+	background-color: #f3f3f3;
+}
+
+#cv {
+	/* font-weight: 100; */
+
+}
+
+.mainDetails {
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
+	border-bottom: 2px solid #cf8a05;
+	padding: 10px 20px 0px 20px;
+}
+
 .clear {
 	clear: both;
+}
+
+img {
+	border-radius: 50%;
+	padding: 30px;
+	width: 75%;
+	height: 75%;
 }
 
 #headshot {
@@ -10,18 +33,91 @@
 
 #name {
 	float: left;
+	margin-left: 50px;
+	padding-top: 10px;
+	color: #444444;
+
+}
+
+#name h1 {
+	margin-bottom: 0;
+	font-size: 40px;
+}
+
+#name h2 {
+	margin-top: 0;
+	font-weight: lighter;
+	font-size: 30px;
 }
 
 #contactDetails {
 	float: right;
+	padding-top: 20px;
 }
 
+#contactDetails li {
+	list-style: none;
+}	
+
+#contactDetails li a {
+	text-decoration: none;
+	color: #181818;
+}	
+
+#mainArea {
+	padding: 0 2em 0 2em;	
+}
+
+.sectionGlobal {
+	border-bottom: 1px solid #dedede;
+}
+
+.sectionGlobal h2 {
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
+	color: #444444;
+}
+
+.sectionGlobal p {
+	font-size: 14px;
+}
 .sectionTitle {
 	float: left;
 	width: 25%;
 }
 
+.sectionTitle h1 {
+	font-style: italic;
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: lighter;
+	color: #cf8a05;
+}
+
 .sectionContent {
+	padding: 15px 0 15px 0;
 	float: right;
 	width: 72.5%;
+	font-family: Lato, Helvetica, Arial, sans-serif;
+}
+
+.sectionContent h2 {
+	font-size: 25px;
+	font-weight: lighter;
+	color: #444444;
+	margin: 5px 0 0 0;
+}
+
+.sectionContent p {
+	line-height: 1.5;
+	margin: 0;
+}
+
+.subDetails {
+	font-style: italic;
+}
+
+.keySkills {
+	columns: 3;
+	list-style: none;
+	padding-left: 0;
 }
