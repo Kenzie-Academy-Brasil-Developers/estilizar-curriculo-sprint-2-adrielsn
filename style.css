@@ -1,6 +1,11 @@
 #top {
-	margin: 100px;
 	background-color: #f3f3f3;
+	max-width: 800px;
+	position: relative;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #181818;
 }
 
 #cv {
@@ -51,6 +56,7 @@ img {
 }
 
 #contactDetails {
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
 	float: right;
 	padding-top: 20px;
 }
@@ -68,24 +74,17 @@ img {
 	padding: 0 2em 0 2em;	
 }
 
-.sectionGlobal {
+.profile, .experience, .skills {
 	border-bottom: 1px solid #dedede;
 }
 
-.sectionGlobal h2 {
-	font-family: Rokkitt, Helvetica, Arial, sans-serif;
-	color: #444444;
-}
-
-.sectionGlobal p {
-	font-size: 14px;
-}
 .sectionTitle {
 	float: left;
 	width: 25%;
 }
 
 .sectionTitle h1 {
+	padding-top: 10px;
 	font-style: italic;
 	font-family: Rokkitt, Helvetica, Arial, sans-serif;
 	font-size: 25px;
@@ -101,15 +100,18 @@ img {
 }
 
 .sectionContent h2 {
+	font-family: Rokkitt, Helvetica, Arial, sans-serif;
 	font-size: 25px;
 	font-weight: lighter;
 	color: #444444;
-	margin: 5px 0 0 0;
+	margin: 10px 0 0 0;
+	padding-top: 5px;
 }
 
 .sectionContent p {
 	line-height: 1.5;
 	margin: 0;
+	font-size: 14px;
 }
 
 .subDetails {
